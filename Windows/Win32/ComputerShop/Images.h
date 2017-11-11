@@ -1,0 +1,2 @@
+#define MAIN_WINDOW			500
+#define DIALOG_WINDOW		501

@@ -1,0 +1,4 @@
+#include "Images.h"
+
+MAIN_WINDOW BITMAP BG1.bmp
+DIALOG_WINDOW BITMAP BG2.bmp

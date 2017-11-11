@@ -1,0 +1,3 @@
+﻿  Combobox.cpp
+d:\abrar\windows\ide\project\computershop\combobox.cpp(82): warning C4101: 'hdc_contents': unreferenced local variable
+  ComputerShop.vcxproj -> D:\Abrar\Windows\IDE\Project\ComputerShop\Debug\ComputerShop.exe
