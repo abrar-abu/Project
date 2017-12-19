@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css" media="screen">
+    a
+    {
+      font-size: 2em;
+      letter-spacing: 3px;
+    }
+    .parentimage 
+    { 
+      width: 160px;
+      height: 90px; 
+      transition: all .3s ease-out;
+    } 
+    .parentimage:hover 
+    {
+      margin-left: -200px;
+      margin-right: -400px;
+      margin-top: -100px;
+      transform: scale(6);
+      transition: width 0.3s linear 0s;  
+      z-index: 12;
+    } 
+    </style>
+  </head>
+  <body>
+  <div class="container">
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+            <kbd> HANDLE :   </kbd> Harsh Patel</a>
+          </h4>
+        </div>
+        <div id="collapse1" class="panel-collapse collapse in">
+          <div class="panel-body">
+            <table class="table table-striped">
+              <tr>
+                <th> Sr.no </th>
+                <th> Name </th>
+                <th> Date </th>
+                <th> Image </th>
+              </tr>
+              <tr>
+                <td> 1 </td>
+                <td> Aishwarya Dekhane </td>
+                <td> 15th Dec </td>
+                <td> 
+                  <div>
+                    <img class="parentimage" src="Images/Aashish_Deshpande.png" alt="Aashish" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td> 2 </td>
+                <td> Amol Jore </td>
+                <td> 16th Dec </td>
+                <td> 
+                  <div >
+                    <img class="parentimage" src="Images/Abrar_Mahedavi.png" alt="Abrar" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td> 3 </td>
+                <td> Devwrat Shah </td>
+                <td> 5th Dec </td>
+                <td> 
+                  <div>
+                    <img class="parentimage" src="Images/Aditya_Ahale.png" alt="Aditya" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td> 4 </td>
+                <td> Lalit Banginwar </td>
+                <td> 10th Nov </td>
+                <td> 
+                  <div>
+                    <img class="parentimage" src="Images/Amita_Kankarej.png" alt="Amita" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td> 5 </td>
+                <td> Manzoor Shaikh </td>
+                <td> 25th Nov </td>
+                <td> 
+                  <div>
+                    <img class="parentimage" src="Images/Manzoor_Shaikh.png" alt="Manzoor" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td> 6 </td>
+                <td> Mayur Wadnerkar </td>
+                <td> 6th Dec </td>
+                <td> 
+                  <div>
+                    <img class="parentimage" src="Images/Pornima_Bhandare.png" alt="Pornima" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td> 7 </td>
+                <td> Nikita Rajiwade </td>
+                <td> 10th Nov </td>
+                <td> 
+                  <div>
+                    <img class="parentimage" src="Images/Pornima_Bhandare.png" alt="Pornima" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+            <kbd> HDC :      </kbd> Shubham Panchariya</a>
+          </h4>
+        </div>
+        <div id="collapse2" class="panel-collapse collapse">
+          <div class="panel-body">
+            <table class="table table-striped">
+              <tr>
+                <th> Sr.no </th>
+                <th> Name </th>
+                <th> Date </th>
+                <th> Image </th>
+              </tr>
+              <tr>
+                <td> 1 </td>
+                <td> Pravin Suryavanshi </td>
+                <td> 16th Dec </td>
+                <td> 
+                  <div>
+                    <img class="parentimage" src="Images/Aashish_Deshpande.png" alt="Aashish" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+            <kbd> HGDIOBJ :  </kbd> Yogeshwar Rasal</a>
+          </h4>
+        </div>
+        <div id="collapse3" class="panel-collapse collapse">
+          <div class="panel-body">
+                        <table class="table table-striped">
+              <tr>
+                <th> Sr.no </th>
+                <th> Name </th>
+                <th> Date </th>
+                <th> Image </th>
+              </tr>
+              <tr>
+                <td> 1 </td>
+                <td> Akshay Apte </td>
+                <td> 10th Nov </td>
+                <td> 
+                  <div>
+                    <img class="parentimage" src="Images/Aashish_Deshpande.png" alt="Aashish" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td> 2 </td>
+                <td> Aniket Kulkarni </td>
+                <td> 16th Dec </td>
+                <td> 
+                  <div >
+                    <img class="parentimage" src="Images/Abrar_Mahedavi.png" alt="Abrar" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td> 3 </td>
+                <td> Atul Linganwar </td>
+                <td> 5th Dec </td>
+                <td> 
+                  <div>
+                    <img class="parentimage" src="Images/Aditya_Ahale.png" alt="Aditya" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td> 4 </td>
+                <td> Deepankar Kulkarni </td>
+                <td> 10th Nov </td>
+                <td> 
+                  <div>
+                    <img class="parentimage" src="Images/Amita_Kankarej.png" alt="Amita" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td> 5 </td>
+                <td> Kunal Waghmare </td>
+                <td> 28th Nov </td>
+                <td> 
+                  <div>
+                    <img class="parentimage" src="Images/Pornima_Bhandare.png" alt="Pornima" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td> 6 </td>
+                <td> Pranita Sharangdhar </td>
+                <td> 9th Nov </td>
+                <td> 
+                  <div>
+                    <img class="parentimage" src="Images/Pornima_Bhandare.png" alt="Pornima" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td> 7 </td>
+                <td> Saurabh Bhalgat </td>
+                <td> 26th Nov </td>
+                <td> 
+                  <div>
+                    <img class="parentimage" src="Images/Pornima_Bhandare.png" alt="Pornima" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td> 8 </td>
+                <td> Sujay Ingale </td>
+                <td> 5th Dec </td>
+                <td> 
+                  <div>
+                    <img class="parentimage" src="Images/Pornima_Bhandare.png" alt="Pornima" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td> 9 </td>
+                <td> Tejas Sutar </td>
+                <td> 6th Dec </td>
+                <td> 
+                  <div>
+                    <img class="parentimage" src="Images/Pornima_Bhandare.png" alt="Pornima" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td> 10 </td>
+                <td> Tejaswini Balshtewar </td>
+                <td> 20th Nov </td>
+                <td> 
+                  <div>
+                    <img class="parentimage" src="Images/Tejaswini_H._Balshetwar.png" alt="Tejaswini" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>              
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-warning">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">
+            <kbd> HINSTANCE :</kbd> Ananth Chandrashekharan</a>
+          </h4>
+        </div>
+        <div id="collapse11" class="panel-collapse collapse">
+          <div class="panel-body">
+            <table class="table table-striped">
+              <tr>
+                <th> Sr.no </th>
+                <th> Name </th>
+                <th> Date </th>
+                <th> Image </th>
+              </tr>
+              <tr>
+                <td> 1 </td>
+                <td> Aashish Deshpande </td>
+                <td> 7th Dec </td>
+                <td> 
+                  <div>
+                    <img class="parentimage" src="Images/Aashish_Deshpande.png" alt="Aashish" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td> 2 </td>
+                <td> Abrar Mahedavi </td>
+                <td> 10th Nov </td>
+                <td> 
+                  <div >
+                    <img class="parentimage" src="Images/Abrar_Mahedavi.png" alt="Abrar" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td> 3 </td>
+                <td> Aditya Ahale </td>
+                <td> 5th Dec </td>
+                <td> 
+                  <div>
+                    <img class="parentimage" src="Images/Aditya_Ahale.png" alt="Aditya" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td> 4 </td>
+                <td> Amita Kankarej </td>
+                <td> 10th Nov </td>
+                <td> 
+                  <div>
+                    <img class="parentimage" src="Images/Amita_Kankarej.png" alt="Amita" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td> 5 </td>
+                <td> Pornima Bhandare </td>
+                <td> 6th Dec </td>
+                <td> 
+                  <div>
+                    <img class="parentimage" src="Images/Pornima_Bhandare.png" alt="Pornima" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-danger">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse22">
+            <kbd> HMODULE :  </kbd> Samarth Mabrukar</a>
+          </h4>
+        </div>
+        <div id="collapse22" class="panel-collapse collapse">
+          <div class="panel-body">
+            <table class="table table-striped">
+              <tr>
+                <th> Sr.no </th>
+                <th> Name </th>
+                <th> Date </th>
+                <th> Image </th>
+              </tr>
+              <tr>
+                <td> 1 </td>
+                <td> Gaurav Patil </td>
+                <td> 25th Dec </td>
+                <td> 
+                  <div>
+                    <img class="parentimage" src="Images/Aashish_Deshpande.png" alt="Aashish" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td> 2 </td>
+                <td> Govinda Rewanwar </td>
+                <td> 8th Dec </td>
+                <td> 
+                  <div >
+                    <img class="parentimage" src="Images/Abrar_Mahedavi.png" alt="Abrar" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td> 3 </td>
+                <td> Kajal Tingre </td>
+                <td> 27th Nov </td>
+                <td> 
+                  <div>
+                    <img class="parentimage" src="Images/Aditya_Ahale.png" alt="Aditya" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td> 4 </td>
+                <td> Samarth Mabrukar </td>
+                <td> 10th Nov </td>
+                <td> 
+                  <div>
+                    <img class="parentimage" src="Images/Amita_Kankarej.png" alt="Amita" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse33">
+            <kbd> HWND :     </kbd> Akshay Dhawde</a>
+          </h4>
+        </div>
+        <div id="collapse33" class="panel-collapse collapse">
+          <div class="panel-body">
+            <table class="table table-striped">
+              <tr>
+                <th> Sr.no </th>
+                <th> Name </th>
+                <th> Date </th>
+                <th> Image </th>
+              </tr>
+              <tr>
+                <td> 1 </td>
+                <td> Aditee Avasarikar </td>
+                <td> 15th Dec </td>
+                <td> 
+                  <div>
+                    <img class="parentimage" src="Images/Aashish_Deshpande.png" alt="Aashish" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td> 2 </td>
+                <td> Sourabh Joshi </td>
+                <td> 8th Dec </td>
+                <td> 
+                  <div >
+                    <img class="parentimage" src="Images/Abrar_Mahedavi.png" alt="Abrar" height="160" width="90"> 
+                  </div>
+                </td>
+              </tr>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/npm.js"></script>
+  </body>
+</html>
